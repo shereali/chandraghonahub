@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,700i&display=swap');
+body{
+    font-size: 14px;
+    font-family: 'Muli';
+    .content-wrapper{
+        position: relative;
+        min-height: 100vh;
+    }
+}
+.navbar-wrapper {
+    .navbar{
+        z-index: 99999;
+        padding-bottom: 20px;
+    }
+    .nav-item{
+        .nav-link {
+            color: #ffffff;
+            padding-left: 20px;
+        }
+    }
+    .navbar-background {
+        background: #327aae;
+    }
+}
+
+.header-wrapper{
+    height: 511px;
+    .header-title{
+        padding-top: 110px;
+        color: #ffffff;
+        text-align: center;
+        p{
+            padding-top: 25px;
+            font-size: 18px;
+            span{
+                text-transform: uppercase;
+                font-style: italic;
+                font-weight: 500;
+            }
+        }
+    }
+    .search-wrapper{
+        width: 50%;
+        margin: 43px auto;
+        input[type="text"]{
+            width: 86%;
+            float: left;
+            height: 45px;
+            border-radius: 50px;
+            border: 0px;
+            padding-left: 15px;
+        }
+        .search-btn{
+            height: 45px;
+            padding-left: 31px;
+            margin-left: -43px;
+            padding-right: 31px;
+            border-radius: 50px;
+            color: #ffffff;
+            border: 0px;
+            background-image: linear-gradient(to right, #3272ab , #35cfd4);
+            text-transform: uppercase;
+        }
+    }
+}
+
+.heading{
+    .section-title{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+        color: #3388b4;
+        h1{
+            font-weight: bold;
+            font-size: 50px;
+        }
+    }
+}
+
+
+.title-wrapper{
+    width: 300px;
+    background-image: linear-gradient(to right, #35cfd4, #3272ab);
+    -webkit-box-shadow: -4px 7px 6px -4px #327baf;
+    -moz-box-shadow: -4px 7px 6px -4px #327baf;
+    box-shadow: -4px 7px 6px -4px #327baf;
+    margin-bottom: 45px;
+    border-radius: 0 50px 50px 0;
+    .title{
+        padding-top: 5px;
+        padding-bottom: 2px;
+        padding-left: 170px;
+        color: #ffffff;
+    }
+}
+
+.mate-area {
+    margin-bottom: 30px;
+    .user-wrapper {
+        padding-bottom: 20px;
+        .img-wrapper {
+            background-image: linear-gradient(to top, #35cfd4, #3272ab);
+            -webkit-box-shadow: 0 10px 6px -7px #54f6fb;
+            -moz-box-shadow: 0 10px 6px -7px #54f6fb;
+            box-shadow: 0 10px 6px -7px #54f6fb;
+            padding: 10px;
+            img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                margin: auto;
+            }
+        }
+        .details-wrapper {
+            padding-top: 15px;
+
+            h5 {
+                color: #4a5e95;
+            }
+
+            p {
+                color: #84a2c9;
+            }
+        }
+    }
+}
+
+.footer-wrapper{
+    min-height: 75px;
+    width: 100%;
+    background-image: linear-gradient(to right, #3272ab, #35cfd4);
+    p{
+        text-align: center;
+        padding-top: 27px;
+        color: #ffffff;
+        a{
+            color: #ffffff;
+        }
+    }
+}
+
+//Start Registration Page
+$reg-color: #4a5e95;
+.registration-page{
+    padding-bottom: 50px;
+    .nav-item{
+        .nav-link {
+            color: #ffffff;
+            padding-left: 20px;
+        }
+    }
+    .title{
+        color: #fff;
+        padding: 0px 0px 50px 0px;
+        h2{
+            font-weight: bold;
+            font-size: 3em;
+        }
+    }
+    .card{
+        .card-body{
+            padding: 0px;
+            .card-title{
+                border-bottom: 1px solid #36cacd;
+                h1{
+                    text-transform: uppercase;
+                    font-size: 1.8em;
+                    font-weight: bold;
+                    font-style: italic;
+                    color: $reg-color;
+                    padding: 33px 0px 27px 33px;
+                }
+
+            }
+            form{
+                padding: 20px 33px;
+                h2{
+                    color: $reg-color;
+                    text-transform: uppercase;
+                    font-size: 1.6em;
+                    border-bottom: 1px solid $reg-color;
+                    display: inline-block;
+                    font-weight: bold;
+                }
+                .heading{
+                  padding-bottom: 1.4em;
+                }
+                label{
+                    color: $reg-color;
+                    font-weight: bold;
+                    font-size: 1.2em;
+                }
+                input{
+                    border-radius: 33px;
+                    border: 1px solid $reg-color;
+                }
+                select{
+                    border-radius: 33px;
+                    border: 1px solid $reg-color;
+                }
+                .institute{
+                    padding-bottom: 1.4em;
+                    .title{
+                        padding: 0px 0px 18px 0px;
+                        h4{
+                            font-size: 1.2em;
+                            color: $reg-color;
+                            font-weight: bold;
+                        }
+                    }
+                    label{
+                        color: $reg-color;
+                        font-weight: bold;
+                        font-size: 0.9em;
+                        padding-left: 4px;
+                    }
+                }
+                .submit-btn{
+                    padding: 14px 0px;
+                    button{
+                        background-image: linear-gradient(to right, #3272ab , #0aebf3);
+                        border-radius: 33px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        font-weight: bold;
+                        height: 46px;
+                        width: 166px;
+                    }
+                }
+            }
+            .personal-information{
+
+            }
+            .educational-infromation{
+
+            }
+            .professional-information{
+
+            }
+            .address{
+
+            }
+        }
+
+    }
+}
+//End Registration Page
+
+//Start Responsive
+//extra small devices
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+
+    .header-wrapper{
+        height: 430px;
+        .navbar{
+            z-index: 99999;
+        }
+        .nav-item{
+            .nav-link {
+                color: #ffffff;
+                padding-left: 20px;
+            }
+        }
+        .header-title{
+            padding-top: 10px;
+            color: #ffffff;
+            text-align: center;
+            p{
+                padding-top: 14px;
+                font-size: 1em;
+                span{
+                    text-transform: uppercase;
+                    font-style: italic;
+                    font-weight: 500;
+                }
+            }
+            h1{
+                font-size: 1.8em;
+            }
+        }
+        .search-wrapper{
+            width: 75%;
+            margin: 43px auto;
+            form{
+                display: flex;
+            }
+            input[type="text"]{
+                width: 85%;
+            }
+            .search-btn{
+                margin-left: -43px;
+            }
+        }
+    }
+
+    .heading{
+        background-image:none !important;
+        .section-title{
+            padding-top: 60px;
+            padding-bottom: 60px;
+            text-align: center;
+            color: #3388b4;
+            h1{
+                font-weight: 400;
+                font-size: 2.5em;
+            }
+        }
+    }
+
+    .mate-area {
+        margin-bottom: 30px;
+        .user-wrapper {
+            padding-bottom: 20px;
+            .img-wrapper {
+                background-image: linear-gradient(to top, #35cfd4, #3272ab);
+                -webkit-box-shadow: 0 10px 6px -7px #54f6fb;
+                -moz-box-shadow: 0 10px 6px -7px #54f6fb;
+                box-shadow: 0 10px 6px -7px #54f6fb;
+                padding: 10px;
+                img {
+                    width: 100%;
+                    height: 250px;
+                    object-fit: cover;
+                    margin: auto;
+                }
+            }
+            .details-wrapper {
+                padding-top: 15px;
+                text-align: center;
+                h5 {
+                    color: #4a5e95;
+                }
+
+                p {
+                    color: #84a2c9;
+                }
+            }
+        }
+    }
+
+    //Start Registration Page
+    .registration-page{
+        padding-bottom: 50px;
+        .nav-item{
+            .nav-link {
+                color: #ffffff;
+                padding-left: 20px;
+            }
+        }
+        .title{
+            color: #fff;
+            padding: 0px 0px 50px 0px;
+            h2{
+                font-weight: bold;
+                font-size: 3em;
+            }
+        }
+        .card{
+            .card-body{
+                padding: 0px;
+                .card-title{
+                    border-bottom: 1px solid #36cacd;
+                    h1{
+                        text-transform: uppercase;
+                        font-size: 1.8em;
+                        font-weight: bold;
+                        font-style: italic;
+                        color: $reg-color;
+                        padding: 33px 0px 27px 33px;
+                    }
+
+                }
+                form{
+                    padding: 20px 33px;
+                    h2{
+                        color: $reg-color;
+                        text-transform: uppercase;
+                        font-size: 1em;
+                        border-bottom: 1px solid $reg-color;
+                        display: inline-block;
+                        font-weight: bold;
+                    }
+                    .heading{
+                        padding-bottom: 1.4em;
+                    }
+                    label{
+                        color: $reg-color;
+                        font-weight: bold;
+                        font-size: 1em;
+                    }
+                    input{
+                        border-radius: 33px;
+                        border: 1px solid $reg-color;
+                    }
+                    select{
+                        border-radius: 33px;
+                        border: 1px solid $reg-color;
+                    }
+                    .institute{
+                        padding-bottom: 1.4em;
+                        .title{
+                            padding: 0px 0px 18px 0px;
+                            h4{
+                                font-size: 1.2em;
+                                color: $reg-color;
+                                font-weight: bold;
+                            }
+                        }
+                        label{
+                            color: $reg-color;
+                            font-weight: bold;
+                            font-size: 0.9em;
+                            padding-left: 4px;
+                        }
+                    }
+                    .submit-btn{
+                        padding: 14px 0px;
+                        button{
+                            background-image: linear-gradient(to right, #3272ab , #0aebf3);
+                            border-radius: 33px;
+                            text-transform: uppercase;
+                            color: #fff;
+                            font-weight: bold;
+                            height: 46px;
+                            width: 166px;
+                        }
+                    }
+                }
+                .personal-information{
+
+                }
+                .educational-infromation{
+
+                }
+                .professional-information{
+
+                }
+                .address{
+
+                }
+            }
+
+        }
+    }
+    //End Registration Page
+}
+//End Responsive
+
+//profile
+.font-color{
+    color: #327aae;
+}
+
+.pl-41{
+    padding-left: 41px;
+}
+.pl-30{
+    padding-left: 30px;
+}
+
+.font-18 {
+    font-size: 18px;
+}

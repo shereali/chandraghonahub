@@ -1,0 +1,484 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:300,400,700,700i&display=swap);body {
+  font-size: 14px;
+  font-family: "Muli";
+}
+
+body .content-wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
+.navbar-wrapper .navbar {
+  z-index: 99999;
+  padding-bottom: 20px;
+}
+
+.navbar-wrapper .nav-item .nav-link {
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.navbar-wrapper .navbar-background {
+  background: #327aae;
+}
+
+.header-wrapper {
+  height: 511px;
+}
+
+.header-wrapper .header-title {
+  padding-top: 110px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header-wrapper .header-title p {
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+.header-wrapper .header-title p span {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.header-wrapper .search-wrapper {
+  width: 50%;
+  margin: 43px auto;
+}
+
+.header-wrapper .search-wrapper input[type=text] {
+  width: 86%;
+  float: left;
+  height: 45px;
+  border-radius: 50px;
+  border: 0px;
+  padding-left: 15px;
+}
+
+.header-wrapper .search-wrapper .search-btn {
+  height: 45px;
+  padding-left: 31px;
+  margin-left: -43px;
+  padding-right: 31px;
+  border-radius: 50px;
+  color: #ffffff;
+  border: 0px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3272ab), to(#35cfd4));
+  background-image: linear-gradient(to right, #3272ab, #35cfd4);
+  text-transform: uppercase;
+}
+
+.heading .section-title {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: #3388b4;
+}
+
+.heading .section-title h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.title-wrapper {
+  width: 300px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#35cfd4), to(#3272ab));
+  background-image: linear-gradient(to right, #35cfd4, #3272ab);
+  box-shadow: -4px 7px 6px -4px #327baf;
+  margin-bottom: 45px;
+  border-radius: 0 50px 50px 0;
+}
+
+.title-wrapper .title {
+  padding-top: 5px;
+  padding-bottom: 2px;
+  padding-left: 170px;
+  color: #ffffff;
+}
+
+.mate-area {
+  margin-bottom: 30px;
+}
+
+.mate-area .user-wrapper {
+  padding-bottom: 20px;
+}
+
+.mate-area .user-wrapper .img-wrapper {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#35cfd4), to(#3272ab));
+  background-image: linear-gradient(to top, #35cfd4, #3272ab);
+  box-shadow: 0 10px 6px -7px #54f6fb;
+  padding: 10px;
+}
+
+.mate-area .user-wrapper .img-wrapper img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: auto;
+}
+
+.mate-area .user-wrapper .details-wrapper {
+  padding-top: 15px;
+}
+
+.mate-area .user-wrapper .details-wrapper h5 {
+  color: #4a5e95;
+}
+
+.mate-area .user-wrapper .details-wrapper p {
+  color: #84a2c9;
+}
+
+.footer-wrapper {
+  min-height: 75px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3272ab), to(#35cfd4));
+  background-image: linear-gradient(to right, #3272ab, #35cfd4);
+}
+
+.footer-wrapper p {
+  text-align: center;
+  padding-top: 27px;
+  color: #ffffff;
+}
+
+.footer-wrapper p a {
+  color: #ffffff;
+}
+
+.registration-page {
+  padding-bottom: 50px;
+}
+
+.registration-page .nav-item .nav-link {
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.registration-page .title {
+  color: #fff;
+  padding: 0px 0px 50px 0px;
+}
+
+.registration-page .title h2 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.registration-page .card .card-body {
+  padding: 0px;
+}
+
+.registration-page .card .card-body .card-title {
+  border-bottom: 1px solid #36cacd;
+}
+
+.registration-page .card .card-body .card-title h1 {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-style: italic;
+  color: #4a5e95;
+  padding: 33px 0px 27px 33px;
+}
+
+.registration-page .card .card-body form {
+  padding: 20px 33px;
+}
+
+.registration-page .card .card-body form h2 {
+  color: #4a5e95;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  border-bottom: 1px solid #4a5e95;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.registration-page .card .card-body form .heading {
+  padding-bottom: 1.4em;
+}
+
+.registration-page .card .card-body form label {
+  color: #4a5e95;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.registration-page .card .card-body form input {
+  border-radius: 33px;
+  border: 1px solid #4a5e95;
+}
+
+.registration-page .card .card-body form select {
+  border-radius: 33px;
+  border: 1px solid #4a5e95;
+}
+
+.registration-page .card .card-body form .institute {
+  padding-bottom: 1.4em;
+}
+
+.registration-page .card .card-body form .institute .title {
+  padding: 0px 0px 18px 0px;
+}
+
+.registration-page .card .card-body form .institute .title h4 {
+  font-size: 1.2em;
+  color: #4a5e95;
+  font-weight: bold;
+}
+
+.registration-page .card .card-body form .institute label {
+  color: #4a5e95;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding-left: 4px;
+}
+
+.registration-page .card .card-body form .submit-btn {
+  padding: 14px 0px;
+}
+
+.registration-page .card .card-body form .submit-btn button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#3272ab), to(#0aebf3));
+  background-image: linear-gradient(to right, #3272ab, #0aebf3);
+  border-radius: 33px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  height: 46px;
+  width: 166px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .header-wrapper {
+    height: 430px;
+  }
+
+  .header-wrapper .navbar {
+    z-index: 99999;
+  }
+
+  .header-wrapper .nav-item .nav-link {
+    color: #ffffff;
+    padding-left: 20px;
+  }
+
+  .header-wrapper .header-title {
+    padding-top: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .header-wrapper .header-title p {
+    padding-top: 14px;
+    font-size: 1em;
+  }
+
+  .header-wrapper .header-title p span {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  .header-wrapper .header-title h1 {
+    font-size: 1.8em;
+  }
+
+  .header-wrapper .search-wrapper {
+    width: 75%;
+    margin: 43px auto;
+  }
+
+  .header-wrapper .search-wrapper form {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .header-wrapper .search-wrapper input[type=text] {
+    width: 85%;
+  }
+
+  .header-wrapper .search-wrapper .search-btn {
+    margin-left: -43px;
+  }
+
+  .heading {
+    background-image: none !important;
+  }
+
+  .heading .section-title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #3388b4;
+  }
+
+  .heading .section-title h1 {
+    font-weight: 400;
+    font-size: 2.5em;
+  }
+
+  .mate-area {
+    margin-bottom: 30px;
+  }
+
+  .mate-area .user-wrapper {
+    padding-bottom: 20px;
+  }
+
+  .mate-area .user-wrapper .img-wrapper {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#35cfd4), to(#3272ab));
+    background-image: linear-gradient(to top, #35cfd4, #3272ab);
+    box-shadow: 0 10px 6px -7px #54f6fb;
+    padding: 10px;
+  }
+
+  .mate-area .user-wrapper .img-wrapper img {
+    width: 100%;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: auto;
+  }
+
+  .mate-area .user-wrapper .details-wrapper {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .mate-area .user-wrapper .details-wrapper h5 {
+    color: #4a5e95;
+  }
+
+  .mate-area .user-wrapper .details-wrapper p {
+    color: #84a2c9;
+  }
+
+  .registration-page {
+    padding-bottom: 50px;
+  }
+
+  .registration-page .nav-item .nav-link {
+    color: #ffffff;
+    padding-left: 20px;
+  }
+
+  .registration-page .title {
+    color: #fff;
+    padding: 0px 0px 50px 0px;
+  }
+
+  .registration-page .title h2 {
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  .registration-page .card .card-body {
+    padding: 0px;
+  }
+
+  .registration-page .card .card-body .card-title {
+    border-bottom: 1px solid #36cacd;
+  }
+
+  .registration-page .card .card-body .card-title h1 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: italic;
+    color: #4a5e95;
+    padding: 33px 0px 27px 33px;
+  }
+
+  .registration-page .card .card-body form {
+    padding: 20px 33px;
+  }
+
+  .registration-page .card .card-body form h2 {
+    color: #4a5e95;
+    text-transform: uppercase;
+    font-size: 1em;
+    border-bottom: 1px solid #4a5e95;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .registration-page .card .card-body form .heading {
+    padding-bottom: 1.4em;
+  }
+
+  .registration-page .card .card-body form label {
+    color: #4a5e95;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .registration-page .card .card-body form input {
+    border-radius: 33px;
+    border: 1px solid #4a5e95;
+  }
+
+  .registration-page .card .card-body form select {
+    border-radius: 33px;
+    border: 1px solid #4a5e95;
+  }
+
+  .registration-page .card .card-body form .institute {
+    padding-bottom: 1.4em;
+  }
+
+  .registration-page .card .card-body form .institute .title {
+    padding: 0px 0px 18px 0px;
+  }
+
+  .registration-page .card .card-body form .institute .title h4 {
+    font-size: 1.2em;
+    color: #4a5e95;
+    font-weight: bold;
+  }
+
+  .registration-page .card .card-body form .institute label {
+    color: #4a5e95;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding-left: 4px;
+  }
+
+  .registration-page .card .card-body form .submit-btn {
+    padding: 14px 0px;
+  }
+
+  .registration-page .card .card-body form .submit-btn button {
+    background-image: -webkit-gradient(linear, left top, right top, from(#3272ab), to(#0aebf3));
+    background-image: linear-gradient(to right, #3272ab, #0aebf3);
+    border-radius: 33px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    height: 46px;
+    width: 166px;
+  }
+}
+
+.font-color {
+  color: #327aae;
+}
+
+.pl-41 {
+  padding-left: 41px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
